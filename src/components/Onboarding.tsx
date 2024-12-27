@@ -12,7 +12,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     name: '',
     avatar: '',
   });
-  const avatarImg= 'https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?s=1024x1024&w=is&k=20&c=SIzGFhl8DDCxaBUXkAOegQ9TecRA3Qp2vbJi5LCXtBU=';
+  const avatarImg= 'https://img.freepik.com/free-photo/pens-glasses-books_23-2147863650.jpg?t=st=1735120153~exp=1735123753~hmac=b6390865f6c2528bed48010db8fab6215da58603776ed3fcfd858f1853597131&w=1060';
 
   const handleAvatarChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -35,7 +35,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
   };
 
   return (
-    <div className="min-h-screen bg-purple-600 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-gray-600 flex flex-col items-center justify-center p-4">
       <img
         src={avatarImg}
         alt="image"
@@ -43,7 +43,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
       />
       <div className="text-white mr-4 pb-5 mt-3 justify-center text-center w-full max-w-md text-4xl font-extrabold">
     
-        <h1>Aricle2Slides.ai</h1>
+        <h1>Academic Paper Generator</h1>
       </div>
       <div className="bg-white rounded-2xl p-8 w-full max-w-md">
         <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
@@ -89,7 +89,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
           
           <button
             type="submit"
-            className="w-full py-3 bg-purple-600 font-bold text-white rounded-lg hover:bg-indigo-700 transition-colors"
+            className="w-full py-3 bg-gray-600 font-bold text-white rounded-lg hover:bg-indigo-700 transition-colors"
             disabled={step === 1 && !settings.name}
           >
             {step === 1 ? 'Continue' : 'Start Chatting'}

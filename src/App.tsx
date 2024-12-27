@@ -63,15 +63,15 @@ function App() {
   return (
     <div className="h-screen bg-gray-50 flex">
       <div className="flex-1 flex flex-col bg-white">
-        <header className="px-6 py-4 bg-purple-600 text-white flex items-center justify-between">
+        <header className="px-6 py-4 bg-gray-600 text-white flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?s=1024x1024&w=is&k=20&c=SIzGFhl8DDCxaBUXkAOegQ9TecRA3Qp2vbJi5LCXtBU="
-              alt="Praiz"
+              src="https://img.freepik.com/free-photo/pens-glasses-books_23-2147863650.jpg?t=st=1735120153~exp=1735123753~hmac=b6390865f6c2528bed48010db8fab6215da58603776ed3fcfd858f1853597131&w=1060"
+              alt="Papyrus"
               className="w-12 h-12 rounded-full object-cover"
             />
             <div>
-              <h1 className="text-2xl font-semibold">Praiz</h1>
+              <h1 className="text-2xl font-semibold">Papyrus</h1>
               <p className="text-xs opacity-75">AI Assistant</p>
             </div>
           </div>
