@@ -39,8 +39,8 @@ export const sendMessage = async (content: string) => {
             justifies the need for the article’s own research,
             positions the article’s research within a gap in existing literature,
             introduces theories and provides context to the audience. 
-            Not more than 1500 words from at least 10 reviews
-        7. Methodology: The methods used in the research. This is a detailed section describing how the research was conducted, the reasons why certain methodologies were used, and limitations of the chosen approach. Not less than 1000 words.
+            Not less than 1000 words from at least 10 reviews.
+        7. Methodology: The methods used in the research. This is a detailed section describing how the research was conducted, the reasons why certain methodologies were used, and limitations of the chosen approach. Not less than 500 words.
         8. Results: The results of the research. This section presents the outcomes of the research and may include charts and data. Not less than 500 words
         9. Discussion: The author's interpretation of the results. This section includes observations from applying the chosen methodology, interpretation and analysis of findings, and reflections on insights gained from the research. Not less than 1500 words
         10. Conclusion: The conclusion of the article. This section provides a summary of the article, with particular focus on key findings and suggestions for future research. Not less than 500 words
